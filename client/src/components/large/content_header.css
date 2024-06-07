@@ -1,0 +1,37 @@
+.content_header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.content_header li{
+    list-style-type: none;
+}
+
+.content_header .history_buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.content_header .navigation_buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.content_header .history_buttons .split {
+    width: 2px;
+    background-color: white;
+    mix-blend-mode: difference;
+    border: none;
+}

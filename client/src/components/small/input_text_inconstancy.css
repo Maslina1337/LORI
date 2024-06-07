@@ -1,0 +1,55 @@
+.input_box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+
+    position: relative;
+}
+
+.input_box .locked_input, .input_box input {
+    width: 100%;
+    border: none;
+    mix-blend-mode: difference;
+    padding: 8px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    /* transition: all 0.1s linear; */
+}
+
+.input_text_inconstancy {
+    background-color: white;
+    color: black;
+    outline: 0px solid black;
+    outline-offset: 3px;
+}
+
+.input_text_inconstancy::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.input_text_inconstancy:focus {
+    outline: 3px solid white;
+}
+
+.input_box .locked_input {
+    width: 100%;
+    pointer-events: none;
+    background-color: rgb(59, 59, 59);
+    color: rgb(24, 24, 24);
+
+    position: absolute;
+}
+
+.input_box > label {
+    text-align: center;
+    padding: 8px 0px;
+    white-space: nowrap;
+}
+
+.input_box .input_size_box {
+    position: relative;
+    min-width: 300px;
+    flex-grow: 1;
+}

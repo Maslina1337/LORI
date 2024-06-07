@@ -1,0 +1,54 @@
+.error_message_space_reservation {
+    width: 100%;
+    max-height: 0px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow-y: hidden;
+
+    transition: all 0.3s ease-in;
+}
+
+.error_message {
+    word-wrap: break-word;
+    width: 100%;
+    background-color: rgb(192, 0, 0);
+    text-align: center;
+    color: white;
+    padding: 10px 30px 10px 60px;
+    border-radius: 5px;
+    outline: 3px solid white;
+    outline-offset: 3px;
+}
+
+.error_img{
+    position: absolute;
+    bottom: -35px;
+    left: 10px;
+    /* animation: error_img_appear 0.9s cubic-bezier(0.18, 0.89, 0.32, 1.28); */
+
+    height: 100px;
+}
+
+@keyframes error_img_appear {
+    0% {
+        bottom: -100px;
+    }
+
+    40% {
+        bottom: -100px;
+    }
+
+    100% {
+        bottom: -35px;
+    }
+}
+
+@keyframes shake {
+    0% {
+
+    }
+}

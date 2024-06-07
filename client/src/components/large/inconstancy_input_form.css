@@ -1,0 +1,10 @@
+.input_form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 20px;
+}

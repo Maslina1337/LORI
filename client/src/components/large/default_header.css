@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: black;
+    gap: 40px;
+}
+
+header .logo_part {
+    margin-left: 20px;
+    height: 120px;
+    /* width: 300px; */
+}
+
+header .button_part {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .track_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-grow: 1;
+}

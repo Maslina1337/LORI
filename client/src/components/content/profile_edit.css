@@ -1,0 +1,50 @@
+.profile_edit_size_box {
+    padding: 40px 0;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+
+    background-color: white;
+}
+
+.profile_edit_size_box h2{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.profile_edit_size_box .avatar_edit_part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.profile_edit_size_box .form_size_box {
+    margin: 40px;
+    background-color: black;
+    padding: 40px 80px;
+    border-radius: 5px;
+    outline: 3px solid black;
+    outline-offset: 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.profile_edit_size_box .bottom_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+}

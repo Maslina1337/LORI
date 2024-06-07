@@ -1,0 +1,44 @@
+.song_track_size_box {
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+}
+
+.song_track_size_box .empty {
+    animation: 0.3s ease-in-out appear;
+    position: relative;
+    background-color: rgb(57, 57, 57);
+    width: 100%;
+    height: 40px;
+    pointer-events: none;
+    border-radius: 5px;
+}
+
+.song_track_size_box .empty .downloaded {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    pointer-events: none;
+}
+
+.song_track_size_box .empty .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    pointer-events: none;
+}
+
+.song_track_size_box .current_time {
+    color: white;
+    pointer-events: none;
+}

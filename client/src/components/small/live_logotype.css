@@ -1,0 +1,22 @@
+.live_logotype {
+    position: relative;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live_logotype > *{
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    font-family: "Anton", sans-serif;
+    line-height: 120px;
+    letter-spacing: 0;
+    color: white;
+    font-size: 140px;
+    transition: all 0.3s ease-out;
+    mix-blend-mode: difference;
+}

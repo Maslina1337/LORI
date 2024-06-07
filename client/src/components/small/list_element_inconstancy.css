@@ -1,0 +1,30 @@
+.list_element_inconstancy {
+    background-color: white;
+    mix-blend-mode: difference;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+    translate: 0;
+}
+
+.list_element_inconstancy > *{
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 16px;
+}
+
+.list_element_inconstancy:hover{
+    translate: 0 -10px;
+}
+
+.list_element_inconstancy .outline {
+    pointer-events: none;
+    color: transparent;
+    mix-blend-mode: normal;
+    outline: 0px solid greenyellow;
+    transition: all 0.2s linear;
+}
+
+.list_element_inconstancy.selected .outline{
+    outline: 2px solid greenyellow;
+}

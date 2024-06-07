@@ -1,0 +1,38 @@
+.life_page_bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 24, 24);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.life_page_bg .wrapper {
+    width: 100%;
+    max-height: 100%;
+    background-color: rgb(24, 24, 24);
+    background-image: url("./imgs/bg_lines.png");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex: 1;
+}
+
+.life_page_bg .wrapper .content_size_box {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.life_page_bg .wrapper .right_side {
+    height: 100%;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
